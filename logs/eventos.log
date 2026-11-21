@@ -1,0 +1,36 @@
+2026-11-21 11:13:26,351 - INFO - ===== INICIO DE LA SIMULACIÓN =====
+2026-11-21 11:13:26,351 - INFO - Operación 1: Registrar cliente válido
+2026-11-21 11:13:26,351 - INFO - Cliente creado: Ana Torres
+2026-11-21 11:13:26,351 - INFO - Operación 2: Registrar cliente con correo inválido
+2026-11-21 11:13:26,351 - ERROR - Operación 2 falló: El correo no es válido
+2026-11-21 11:13:26,351 - INFO - Operación 3: Registrar cliente con nombre vacío
+2026-11-21 11:13:26,352 - ERROR - Operación 3 falló: El nombre es obligatorio
+2026-11-21 11:13:26,352 - INFO - Operación 4: Registrar otro cliente válido
+2026-11-21 11:13:26,352 - INFO - Cliente creado: Carlos Pérez
+2026-11-21 11:13:26,352 - INFO - Operación 5: Crear sala válida
+2026-11-21 11:13:26,352 - INFO - Servicio creado: Sala Norte
+2026-11-21 11:13:26,352 - INFO - Operación 6: Crear alquiler de equipo válido
+2026-11-21 11:13:26,352 - INFO - Servicio creado: Proyector
+2026-11-21 11:13:26,352 - INFO - Operación 7: Crear asesoría válida
+2026-11-21 11:13:26,352 - INFO - Servicio creado: Asesoría Python
+2026-11-21 11:13:26,353 - INFO - Operación 8: Crear sala con precio negativo
+2026-11-21 11:13:26,353 - ERROR - Operación 8 falló: El precio debe ser mayor a 0
+2026-11-21 11:13:26,353 - INFO - Operación 9: Reserva exitosa de sala por 3 horas
+2026-11-21 11:13:26,353 - INFO - Reserva 1 creada
+2026-11-21 11:13:26,353 - INFO - Reserva 1 confirmada. Costo: 32130.0
+2026-11-21 11:13:26,353 - INFO - Fin del intento de confirmar reserva 1
+2026-11-21 11:13:26,353 - INFO - Operación 10: Reserva de equipo por 45 días (inválida)
+2026-11-21 11:13:26,353 - ERROR - Operación 10 falló: La duración debe estar entre 1 y 30 días
+2026-11-21 11:13:26,353 - INFO - Operación 11: Reserva con cliente inválido
+2026-11-21 11:13:26,353 - ERROR - Operación 11 falló: El cliente no es válido
+2026-11-21 11:13:26,353 - INFO - Operación 12: Reserva de un servicio no disponible
+2026-11-21 11:13:26,353 - INFO - Reserva 4 creada
+2026-11-21 11:13:26,353 - ERROR - Falla al confirmar reserva 4: El servicio Asesoría Python no está disponible
+2026-11-21 11:13:26,353 - INFO - Fin del intento de confirmar reserva 4
+2026-11-21 11:13:26,353 - ERROR - Reserva 4 no procesada: No se pudo confirmar: El servicio Asesoría Python no está disponible
+2026-11-21 11:13:26,354 - INFO - Operación 13: Confirmar una reserva que ya está confirmada
+2026-11-21 11:13:26,354 - ERROR - Operación 13 falló: Solo se puede confirmar una reserva pendiente
+2026-11-21 11:13:26,354 - INFO - Operación 14: Cancelar una reserva dos veces
+2026-11-21 11:13:26,354 - INFO - Reserva 1 cancelada
+2026-11-21 11:13:26,354 - ERROR - Operación 14 falló: La reserva ya está cancelada
+2026-11-21 11:13:26,354 - INFO - ===== FIN DE LA SIMULACIÓN =====
